@@ -1,10 +1,10 @@
 cask "melodex" do
-  version "0.7.2"
+  version "0.7.5"
 
   arch arm: "arm64", intel: "intel"
 
-  sha256 arm:   "cdc21eda6542ef168694feaf9731d28aabc01e261114ee2a97ae982d040e5e3c",
-         intel: "3b21df7736b94752dac38de7664337c35c915538329536bfb0c14886c5880d95"
+  sha256 arm:   "f96b37a494cef0e981966fd4b586711645b1b18b24bd3e95eda643110bd5beef",
+         intel: "9e18e4f23929e3a403ef22e10f5abe613eea11c162e3b4c28ef7b27bca0e8ebc"
 
   url "https://github.com/Cliff-Lee/melodex/releases/download/v#{version}/Melodex-macOS-#{arch}.dmg"
 
